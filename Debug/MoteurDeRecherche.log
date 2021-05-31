@@ -1,0 +1,83 @@
+﻿  MoteurDeRecherche.cpp
+C:\Users\OBenz\Desktop\Personal Projects\MoteurDeRecherche\MoteurDeRecherche.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  source.cpp
+C:\Users\OBenz\Desktop\Personal Projects\MoteurDeRecherche\source.cpp(465,35): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(167,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(249): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(249): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=double,
+              _Other=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(249): message : see reference to function template instantiation 'std::tuple<int,std::string>::tuple<std::_Exact_args_t,_Ty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(_Tag,_This2 &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(249): message : see reference to function template instantiation 'std::tuple<int,std::string>::tuple<std::_Exact_args_t,_Ty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(_Tag,_This2 &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(846): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(_Tag,_This2 &&,double &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(846): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(_Tag,_This2 &&,double &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(256): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(256): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(383): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Unpack_tuple_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\tuple(383): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::_Unpack_tuple_t,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>
+          ]
+C:\Users\OBenz\Desktop\Personal Projects\MoteurDeRecherche\source.cpp(240): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&) noexcept' being compiled
+C:\Users\OBenz\Desktop\Personal Projects\MoteurDeRecherche\source.cpp(240): message : see reference to function template instantiation 'std::tuple<std::string,int,std::string>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,0>(std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char>>,double,std::basic_string<char,std::char_traits<char>,std::allocator<char>>> &&) noexcept' being compiled
+  Generating Code...
+  MoteurDeRecherche.vcxproj -> C:\Users\OBenz\Desktop\Personal Projects\MoteurDeRecherche\Debug\MoteurDeRecherche.exe
